@@ -1,13 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Navigation from './routes/Navigation';
+// import Header from './pages/Header';
+import { BrowserRouter } from 'react-router-dom';
+import "./styles/design.css";
+
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <BrowserRouter class="background">
+    {/* <h1>Playboy Test</h1> */}
+    <Navigation />
+  </BrowserRouter>,
   document.getElementById('root')
 );
 
