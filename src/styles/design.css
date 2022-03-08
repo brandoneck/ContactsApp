@@ -28,7 +28,7 @@
     /* font-weight: 700; */
     line-height: 25px;
     letter-spacing: 0em;
-    margin: 8px;
+    /* margin: 8px; */
 }
 
 .label {
@@ -56,8 +56,56 @@
     margin: 0 1rem 2rem 1rem;
     text-align: center;
 }
-  
-img {
+
+.section2 {
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    /* align-items: center; */
+    justify-content: space-between;
+}
+
+.contactdiv {
+    width: 33%;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    
+}
+.card {
+    /* width: 33%; */
+    background-color: #eef1f6;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.img {
     display: inline-block;
     max-width: 100%;
 }
+
+.fab {
+    margin: 0px;
+    top: auto;
+    right: 50px;
+    bottom: 50px;
+    left: auto;
+    position: fixed;
+    background-color: 'blue';
+};
